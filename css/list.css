@@ -1,0 +1,778 @@
+html,body{
+    width: 100%;
+}
+body{
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body>.header{
+    width: 100%;
+    height: 40px;
+    background-color: #F5F5F5;
+    padding: 0 40px;
+
+}
+body>.header>.header_left{
+    float: left;
+    position: relative;
+
+}
+body>.header>.header_left>p{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+
+}
+body>.header>.header_left>ul{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    overflow: auto;
+    display: none;
+    z-index: 3;
+    background-color: #fff;
+}
+body>.header>.header_left>ul>li{
+    padding-left: 5px;
+    width: 100%;
+    height:40px ;
+
+}
+ .header_two{
+     float: left;
+   height: 100%;
+   width: 80px;
+   margin-left: 5px;
+    padding-top: 10px;
+
+}
+.header_two>a{
+    color: red;
+}
+.header_three{
+    float: left;
+    width: 100px;
+    height: 100%;
+    
+    padding-top: 10px;
+
+}
+.header_last{
+    float: right;
+    height: 100%;
+}
+.header_last>.uli{
+    float: left;
+    height: 100%;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+ 
+}
+.header_last>li>ul{
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  background-color: #fff;
+  z-index: 3;
+ 
+
+  display: none;
+  
+
+}
+.header_last>li>ul>li{
+    padding: 0px 5px;
+    height: 30px;
+    line-height: 30px;
+
+}
+.uli> .li_last{
+    position: absolute;
+    top: 40px;
+ left: -1190px;
+    width: 1295px;
+    height: 400px;
+   
+}
+.li_last>div{
+    height: 100%;
+    width: 25%;
+
+    float: left;
+    padding: 10px 10px 0 10px;
+}
+.li_last>div>span{
+    display: block;
+    width: 25%;
+    height: 37px;
+    float: left;
+}
+.li_last>div>span>a{
+   padding: 10px;
+   border-radius: 10px;
+ 
+
+}
+.banner{
+   width: 100%;
+   position: relative;
+}
+.banner>img{
+    width: 100%;
+}
+.banner>a{
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    width: 120px;
+    height: 50px;
+   
+}
+.two{
+    width: 100%;
+    height: 49px;
+
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 10px 0;
+
+}
+.two>span{
+  width: 113px;
+  height: 49px;
+  float: left;
+}
+.two .two_cen{
+    width:40% ;
+    height: 30px;
+    float: left;
+    margin-left: 270px;
+
+   margin-top: 10PX;
+   position: relative;
+}
+.two .two_cen>input{
+    float: left;
+    background-color: sandybrown;
+    height: 100%;
+    width: 90%;
+    text-indent: 100px;
+    border: 1px solid #FF3F00;
+    outline: none;
+}
+.two .two_cen>p{
+    width: 10%;
+    height: 100%;
+    float: left;
+    background-color: #FF3F00;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+.two .two_cen>ul{
+  width: 70%; 
+  height: 200px;
+  overflow: auto;
+ 
+  background-color: #fff;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+  display: none;
+}
+.two .two_cen>ul>li{
+    height: 30px;
+    cursor: pointer;
+}
+.two .two_cen>ul>li:hover{
+    background-color: #FF3F00;
+}
+
+
+.two .two_cen .select{
+    width: 100px;
+    height:calc(100% - 2px);
+   background-color: #999;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    text-indent: 20px;
+    line-height: 28px;
+   
+}
+.two .two_cen .select::after{
+    content: '>';
+    position: absolute;
+    right: 5px;
+    top: 0px;
+
+}
+.two .two_cen .select .select_b{
+    width: 100px;
+    height:100%;
+    border: 1px solid #999;
+    position: absolute;
+    left: 0;
+    top: 28px;
+    text-indent: 20px;
+    line-height: 28px;
+    display: none;
+}
+.two .two_cen .select .select_b::after{
+    content: '>';
+    position: absolute;
+    right: 5px;
+    top: 0px;
+
+}
+.two .two_cen .select:hover .select_b{
+    display: block;
+}
+
+.three{
+    width:903px ;
+    height: 40px;
+    border-bottom: 2px solid #FF3F00 ;
+    margin-left: 35px;
+}
+.three .three_first{
+   width: 100px;
+   height: 100%;
+   background-color:  #FF3F00;
+   text-align: center;
+   line-height: 40px;
+   float: left;
+   color: #fff;
+}
+.three>ul{
+    width: 150px;
+    height: 100%;
+ 
+    display: flex;
+    float: left;
+}
+.three>ul>li{
+    flex: 1;
+    text-align: center;
+    line-height: 40px;
+}
+.three>ul>li.mingzi{
+    background-color: #FF3F00;
+}
+
+.four{
+    margin-left: 35px;
+    width:903px;
+    height: 400px;
+ 
+
+}
+.four .four_box{
+    height: 100%;
+    width: 100%;
+}
+.four .four_shaixuan{
+    width: 100%;
+    height: 40px;
+ 
+    font-size: 30PX;
+}
+.four .four_liebiao{
+    width: 100%;
+    height: calc(100% - 40px);
+    
+}
+.four .four_liebiao>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    
+
+}
+.four .four_liebiao>ul>li{
+   flex: 1;
+  margin: 2px 0;
+
+
+}
+
+.four .four_liebiao>ul>li .left{
+    width: 100px;
+    height: 30px;
+ 
+    margin-top:20px ;
+     float: left; 
+}
+
+
+.four .four_liebiao>ul>li .yiji{
+    float: left;
+    height: 100%;
+    width: calc(100% - 100px);
+   
+    display: flex;
+    flex-wrap: wrap;
+
+} 
+.four .four_liebiao>ul>li .erji{
+    float: left;
+    height: 100%;
+    width: calc(100% - 100px);
+   
+    display: flex;
+    flex-wrap: wrap;
+} 
+.four .four_liebiao>ul>li .sanji{
+    float: left;
+    height: 100%;
+    width: calc(100% - 100px);
+
+    display: flex;
+    flex-wrap: wrap;
+} 
+.four .four_liebiao>ul>li .siji{
+    float: left;
+    height: 100%;
+    width: calc(100% - 100px);
+
+    display: flex;
+    flex-wrap: wrap;
+} 
+.four .four_liebiao>ul>li .paixu{
+    float: left;
+    height: 100%;
+    width: calc(100% - 100px);
+
+    display: flex;
+    flex-wrap: wrap;
+} 
+.four .four_liebiao>ul>li .yiji>span{
+    width: 90px;
+    height: 30px;
+
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+
+}
+.four .four_liebiao>ul>li .erji>span{
+    width: 90px;
+    height: 30px;
+  
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+
+}
+.four .four_liebiao>ul>li .sanji>span{
+    width: 90px;
+    height: 30px;
+    
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+
+}
+.four .four_liebiao>ul>li .siji>span{
+    width: 90px;
+    height: 30px;
+
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+
+}
+.four .four_liebiao>ul>li .paixu>span{
+    width: 90px;
+    height: 30px;
+   
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+
+
+
+
+
+
+.four .four_liebiao>ul>li span.ming{
+    background-color: red;
+
+}
+
+.nine{
+    margin-left: 35px;
+    width:903px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nine>li{
+   width: 24%;
+   height: 300px;
+  
+   margin-bottom:10px ;
+
+}
+.nine>li>img{
+    width: 100%;
+    height:60% ;
+}
+.nine>li .p1{
+   width: 100%;
+    height: 40px;
+  
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nine>li .p1>span{
+    color: red;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.nine>li .p1>i{
+    font-style: normal;
+    color: #999;
+    font-size: 10px;
+}
+.nine>li .p2{
+    padding-left: 10px;
+    padding-right: 10px;
+   
+    font-size: 13px;
+}
+.nine>li .p3{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: darkgrey;
+    font-size: 11px;
+    height: 25px;
+    line-height: 25px;
+}
+.nine>li  .p4{
+    font-size: 13px;
+
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.shiquan{
+    width: 100%;
+    height: 49px;
+
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 10px 0;
+    position: fixed;
+    top: -10px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+
+}
+.shiquan>span{
+  width: 113px;
+  height: 49px;
+  float: left;
+}
+.shiquan .two_cen{
+    width:40% ;
+    height: 30px;
+    float: left;
+    margin-left: 270px;
+
+   margin-top: 10PX;
+   position: relative;
+}
+.shiquan .two_cen>input{
+    float: left;
+    background-color: sandybrown;
+    height: 100%;
+    width: 90%;
+    text-indent: 100px;
+    border: 1px solid #FF3F00;
+    outline: none;
+}
+.shiquan .two_cen>p{
+    width: 10%;
+    height: 100%;
+    float: left;
+    background-color: #FF3F00;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+.shiquan .two_cen>ul{
+  width: 70%; 
+  height: 200px;
+  overflow: auto;
+ 
+  background-color: #fff;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+  display: none;
+}
+.shiquan .two_cen>ul>li{
+    height: 30px;
+    cursor: pointer;
+}
+.shiquan .two_cen>ul>li:hover{
+    background-color: #FF3F00;
+}
+
+
+.shiquan .two_cen .select{
+    width: 100px;
+    height:calc(100% - 2px);
+   background-color: #999;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    text-indent: 20px;
+    line-height: 28px;
+   
+}
+.shiquan .two_cen .select::after{
+    content: '>';
+    position: absolute;
+    right: 5px;
+    top: 0px;
+
+}
+.shiquan .two_cen .select .select_b{
+    width: 100px;
+    height:100%;
+    border: 1px solid #999;
+    position: absolute;
+    left: 0;
+    top: 28px;
+    text-indent: 20px;
+    line-height: 28px;
+    display: none;
+}
+.shiquan .two_cen .select .select_b::after{
+    content: '>';
+    position: absolute;
+    right: 5px;
+    top: 0px;
+
+}
+.shiquan .two_cen .select:hover .select_b{
+    display: block;
+}
+.huidao{
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  font-size: 20px;
+  color: #F5F5F5;
+  text-align: center;
+  
+}
+.shi{
+    width: 100%;
+    height: 260px;
+    
+    padding: 10px;
+    color: #999;
+    margin-top: 100px;
+}
+.shi  .nine_first>li{
+   float: left;
+   padding-left: 8px;
+   padding-right: 8px;
+   border-left: 1px solid #DDDDDF;
+   cursor: pointer;
+}
+.shi .nine_first>li:hover{
+    color: red;
+}
+.shi .nine_first>li:nth-child(1){
+    border-left: none;
+    padding-left: 0px;
+   
+}
+.nine_two{
+    clear: both;
+   
+}
+.nine_two>li{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left: 1px solid #DDDDDF;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.shi .nine_two>li:nth-child(1){
+    border-left: none;
+    padding-left: 0px;
+}
+ .shi hr{
+     clear: both;
+     margin-bottom: 10px;
+ }
+ .shi .nine_two>li:hover{
+    color: red;
+}
+
+.nine_three>li{
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+    cursor: pointer;
+   
+}
+.shi .nine_three>li:nth-child(1){
+
+    padding-left: 0px;
+   
+}
+.shi .nine_three>li:hover{
+    color: red;
+}
+.shi .nine_three>li:last-child{
+    border-right: 1px solid #DDDDDF;
+}
+.shi  .nine_four{
+    margin-left: 20px;
+    float: left;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.nine_three>li{
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+   
+    cursor: pointer;
+   
+}
+.nine_five{
+    clear: both;
+   
+}
+.nine_five>li{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left: 1px solid #DDDDDF;
+    cursor: pointer;
+   
+}
+.nine_five>li:nth-child(1){
+    border-left: none;
+    padding-left: 0px;
+}
+.nine_five>li:hover{
+    color: red;
+}
+ .nine_five>li:last-child{
+    border-right: 1px solid #DDDDDF;
+}
+  .nine_six{
+    margin-left: 20px;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    margin-top: -9px;
+    margin-left: 10px;
+    
+}
+ .nine_seve{
+    clear: both;
+}
+ .nine_seve>li{
+    float: left;
+    border-right: 1px solid #999;
+    font-size: 13.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+
+  .nine_seve>li:last-child{
+    border-right: none;
+    padding-right: 0px;
+
+}
+
+  .nine_seve>li:first-child{
+    border-right: none;
+    padding-left: 0px;
+
+}
+ .nine_nine{
+     clear: both;
+}
+
+.nine_nine>li{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left: 1px solid #DDDDDF;
+    cursor: pointer;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+}
+ .nine_nine>li:nth-child(1){
+    border-left: none;
+    padding-left: 0px;
+}
+ .nine_nine>li:nth-child(1):hover{
+    color: red;
+}
+.nine_nine>li:last-child{
+    border-right: 1px solid #DDDDDF;
+}
+ .nine_last{
+    height: 70px;
+    width: 100%;
+    background-color: lightcyan;
+    clear: both;
+    background-image: url('./../img/jietu.png');
+    background-repeat: no-repeat;
+}
